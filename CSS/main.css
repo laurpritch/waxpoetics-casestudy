@@ -1,3 +1,43 @@
+:root {
+	--font-sans-serif: helvetica, sans-serif;
+	--font-serif: adobe-caslon-pro, serif;
+	--gray-dark: #19111c;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: var(--font-serif); 
+	color: var(--gray-dark);
+	line-height: 23px;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: -.01em;
+}
+
 img {
-	width: 50%;
+	display: block;
+	max-width: 100%;
+}
+
+.component__name{
+	font-size: 28px;
+}
+
+.component img {
+	max-width: initial;
+}
+
+.component__img {
+	overflow-x: auto;
+}
+
+.component__name--sub-name {
+	font-size: 20px;
+	color: pink;
 }
