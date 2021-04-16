@@ -32,8 +32,12 @@ img {
 }
 
 
-.component__name{
-	font-size: 28px;
+.component__name {
+	font-size: 24px;
+	font-family: helvetica;
+	padding: 10px 5px;
+	text-transform: uppercase;
+	border-bottom: 1px solid;
 }
 
 .component img {
@@ -44,16 +48,26 @@ img {
 	overflow-x: auto;
 }
 
-.h3 {
-	font-size: 28px;	
+h1 {
+	font-family: campaign;
+	text-align: center;
+	font-size: 50px;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 24px;
+	font-family: helvetica;
+	padding-bottom: .5rem;
+	text-transform: uppercase;	
+	text-align: center;
 }
 
 
 .component__name--sub-name {
-	font-size: 20px;
+	font-size: 24px;
 	font-family: helvetica;
 	padding-bottom: .5rem;
-	border-bottom: 1px solid;
 	text-transform: uppercase;
 }
 
@@ -93,4 +107,20 @@ img {
 	color: #19111c;
 	font-weight: 400;
 	letter-spacing: -.01em;
+}
+
+#ul-title {
+	text-transform: uppercase;
+	font-family: helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 11px;
+	line-height: 13px;
+	list-style: none;
+}
+
+#list-item {
+	font-size: 18px;
+	line-height: 23px;
+	font-family: helvetica;
+	font-weight: 400;
 }
