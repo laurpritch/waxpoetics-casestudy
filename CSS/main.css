@@ -35,7 +35,7 @@ img {
 .component__name {
 	font-size: 24px;
 	font-family: helvetica;
-	padding: 10px 5px;
+	padding-bottom: 5px;
 	text-transform: uppercase;
 	border-bottom: 1px solid;
 }
@@ -48,6 +48,9 @@ img {
 	overflow-x: auto;
 }
 
+.component__code {
+	margin-bottom: 10px;
+}
 h1 {
 	font-family: campaign;
 	text-align: center;
