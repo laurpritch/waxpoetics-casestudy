@@ -114,7 +114,7 @@ h2 {
 
 #ul-title {
 	text-transform: uppercase;
-	font-family: helvetica, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, sans;
 	font-weight: 400;
 	font-size: 11px;
 	line-height: 13px;
@@ -124,7 +124,7 @@ h2 {
 #list-item {
 	font-size: 18px;
 	line-height: 23px;
-	font-family: helvetica;
+	font-family: "Helvetica Neue", Helvetica, sans;
 	font-weight: 400;
 }
 
@@ -141,7 +141,6 @@ h2 {
   grid-gap: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  border: pink;
 }
 
 .mix-left { 
@@ -172,4 +171,66 @@ h2 {
   font-weight: 100%;
   padding-right: 20px;
 }
+.mix-article__genre {
+	font-family: "Helvetica Neue", Helvetica, sans;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 15px;
+	text-transform: uppercase;
 }
+
+.mix-article__image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h5 {
+	font-family: "Helvetica Neue", Helvetica, sans;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 27px;
+	text-align: center;
+	text-decoration: none;
+	letter-spacing: -.01em;
+}
+
+.mix-article__name {
+	text-align: center;
+	text-decoration: none;
+	color: #19111c;
+}
+
+.compiled-by {
+	font-family: adobe-caslon-pro, times, serif; 
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 27px;
+	text-align: center;
+	color: #19111c;
+	letter-spacing: -.01em;
+	padding-bottom: 20px;
+}
+
+
+.button--outline {
+	display: block;
+	border: 1px solid #19111c;
+	border-radius: 2.5rem;
+	padding: 0.8rem 1rem;
+	text-decoration: none;
+	color: #19111c;
+	margin: 0.5rem;
+	background: transparent;
+	color: var(--black);
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Helvetica Neue", Helvetica, sans;
+	font-weight: 400;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: -.01em;
+	text-transform: uppercase;
+}
+
+
