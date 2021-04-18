@@ -127,3 +127,49 @@ h2 {
 	font-family: helvetica;
 	font-weight: 400;
 }
+
+
+.wax-container {
+	max-width: 1920px;
+	background-color: #ecebe7;
+	padding: 2.08333vw;
+}
+
+.mix-article {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: pink;
+}
+
+.mix-left { 
+  background: rgba(255, 255,255, 0.2); 
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  font-weight: 100%;
+  border-right: 1px solid;
+  padding-right: 20px;
+}
+
+.mix-center { 
+  background: rgba(255, 255,255, 0.2); 
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  font-weight: 100%;
+  border-right: 1px solid;
+  padding-right: 20px;
+}
+
+.mix-right {
+  background: rgba(255, 255,255, 0.2); 
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  font-weight: 100%;
+  padding-right: 20px;
+}
+}
