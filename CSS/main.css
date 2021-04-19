@@ -24,6 +24,7 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 	letter-spacing: -.01em;
+	background-color: #ecebe7;
 }
 
 img {
@@ -144,7 +145,6 @@ h2 {
 }
 
 .mix-left { 
-  background: rgba(255, 255,255, 0.2); 
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -154,7 +154,6 @@ h2 {
 }
 
 .mix-center { 
-  background: rgba(255, 255,255, 0.2); 
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -164,7 +163,6 @@ h2 {
 }
 
 .mix-right {
-  background: rgba(255, 255,255, 0.2); 
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -308,6 +306,7 @@ h5 {
 .site-name {
 	display: grid;
 	align-items: center;
+	text-align: center;
 	margin: auto;
 	font-weight: 600;
 	font-size: 34;
